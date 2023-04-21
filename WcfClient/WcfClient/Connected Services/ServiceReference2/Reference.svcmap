@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="c1f505ad-a712-4c2a-acbb-60974263c61c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.182.61.99:7777/WcfServiceLibrary1" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfServiceLibrary1.xsd" MetadataType="Schema" ID="2273bbd3-a626-4316-b605-473f05d964a3" SourceId="1" SourceUrl="http://10.182.61.99:7777/WcfServiceLibrary1?xsd=xsd2" />
+    <MetadataFile FileName="WcfServiceLibrary1.disco" MetadataType="Disco" ID="00b6d216-0874-42c1-b877-cba477ab56f8" SourceId="1" SourceUrl="http://10.182.61.99:7777/WcfServiceLibrary1?disco" />
+    <MetadataFile FileName="WcfServiceLibrary11.xsd" MetadataType="Schema" ID="9ef7710e-087b-4ead-82fc-146c06566752" SourceId="1" SourceUrl="http://10.182.61.99:7777/WcfServiceLibrary1?xsd=xsd0" />
+    <MetadataFile FileName="MyCalculator.wsdl" MetadataType="Wsdl" ID="9ee04249-a77e-449a-a5c8-60b6a1adace0" SourceId="1" SourceUrl="http://10.182.61.99:7777/WcfServiceLibrary1?wsdl" />
+    <MetadataFile FileName="WcfServiceLibrary12.xsd" MetadataType="Schema" ID="0ea3acaa-754b-4f75-9a41-124b0c1598f5" SourceId="1" SourceUrl="http://10.182.61.99:7777/WcfServiceLibrary1?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
